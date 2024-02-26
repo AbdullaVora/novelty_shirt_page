@@ -3,6 +3,10 @@ let shirtData = [
     { name: 'Shirt 8786', code: 1234, size: '2y-10y', price: 235, img: 'img/Produkt_2_1800x1800.png' },
     { name: 'Shirt', code: 1234, size: '2y-10y', price: 235, img: 'img/Produkt_2_1800x1800.png' },
     { name: 'Shirt', code: 1234, size: '2y-10y', price: 235, img: 'img/Produkt_2_1800x1800.png' },
+    { name: 'Shirt', code: 1234, size: '2y-10y', price: 235, img: 'img/Produkt_2_1800x1800.png' },
+    { name: 'Shirt', code: 1234, size: '2y-10y', price: 235, img: 'img/Produkt_2_1800x1800.png' },
+    { name: 'Shirt', code: 1234, size: '2y-10y', price: 235, img: 'img/Produkt_2_1800x1800.png' },
+    { name: 'Shirt', code: 1234, size: '2y-10y', price: 235, img: 'img/Produkt_2_1800x1800.png' },
     { name: 'Shirt', code: 1234, size: '2y-10y', price: 235, img: 'img/Produkt_2_1800x1800.png' }
 ]
 
