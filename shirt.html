@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Zone</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    
+    <!-- Loader start -->
+    <section id="loader">
+        <div class="ring"></div>
+        <h2>Loading...</h2>
+    </section>
+    <!-- Loader end -->
+
+    <!--------------------------------------------------------- main start ---------------------------------------------------------------->
+    <main>
+        <!--------------------------------------------------------- page start ---------------------------------------------------------------->
+        <section class="page py-5 ripple">
+            <div class="modal" id="modal"></div>
+            <div class="container">
+                <h1 class="text-center text-primary fw-bold text-decoration-underline opacity-75 mb-2">Novelty Apperals
+                </h1>
+                <span class="d-block text-primary text-center fw-semibold opacity-75 mb-3">It's a kids boys and girls
+                    wear showroom</span>
+                <div class="filter">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="../index.html" class="text-reset"><button
+                                    class="btn-donate text-reset fw-semibold fs-5">Home</button></a></li>
+                        <li class="nav-item"><button class="btn-donate text-reset fw-semibold fs-5">All</button></li>
+                        <li class="nav-item"><button class="btn-donate text-reset fw-semibold fs-5">Boys</button></li>
+                        <li class="nav-item"><button class="btn-donate text-reset fw-semibold fs-5">Girls</button></li>
+                    </ul>
+                </div>
+                <div class="row" id="card_group">
+                    <!-- <div class="col-xxl-3 col-xl-4 col-md-6 mt-5">
+                        <div class="card border-0 p-2">
+                            <div class="c-img border-3 border rounded-2">
+                                <img src="asset/img/Produkt_2_1800x1800.png" alt="" class="img-fluid object-fit-cover">
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <nav class="mt-4">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a href="index.html" class="page-link fw-semibold">Previous</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="index.html" class="page-link fw-semibold">1</a>
+                        </li>
+                        <li class="page-item active">
+                            <a href="javascript:void(0);" class="page-link fw-semibold">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="page-3.html" class="page-link fw-semibold">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="page-3.html" class="page-link fw-semibold">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <!--------------------------------------------------------- page end ---------------------------------------------------------------->
+    </main>
+    <!--------------------------------------------------------- main end ---------------------------------------------------------------->
+
+    <!-- jquery -->
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+
+    <!-- shirt -->
+    <script src="shirt.js"></script>
+
+    <script src="jquery.ripples-min.js"></script>
+
+    <script>
+        $('.ripple').ripples({
+            dropRadius: 20,
+            resolution: 256,
+            perturbance: 0.06,
+        });
+
+        $("#loader").fadeOut(1000);
+
+
+    </script>
+
+</body>
+
+</html>
