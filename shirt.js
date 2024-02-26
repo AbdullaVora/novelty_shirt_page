@@ -54,7 +54,3 @@ function modalbox(id) {
 function modalOff(){
     modal.style.display = 'none'
 }
-
-// document.addEventListener('click', function(){
-//     modal.style.display = 'none'
-// })
